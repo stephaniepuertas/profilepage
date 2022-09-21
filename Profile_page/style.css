@@ -1,0 +1,206 @@
+/* css reset */
+*{
+    margin:0px;
+    padding: 0px;
+}
+/* container reset */
+.container{
+    width: 970px;
+}
+/* nav bar styling */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: black;
+}
+
+.nav-title{
+    color: white;
+    margin-left:100px;
+    margin-bottom: 23px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    margin-right: 347px;
+}
+.nav-links > li{
+    margin: 0px 10px;
+    list-style-type: none;
+}
+/* .nav-links > li > a */
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    color: white;
+    background-color: navy;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+.active{
+    font-weight: bold;
+}
+/* end of nav bar */
+/* creating column left and attributes to make them stack*/
+.MainBody{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+.columnLeft{
+    margin-top: 20px;
+    /* margin-left: 40px; */ 
+}
+.columnRight{
+    display:block;
+    margin-top: 20px;
+    /* margin-right: 40px; */ 
+
+}
+/* begin usercard  */
+.entirecard{
+    background-color:white;
+    margin: 0px auto;
+    width:600px;
+    border: 5px solid;
+    border-color:rgb(195, 195, 204);
+}
+.user-circle{
+    height: 80px;
+    border:3px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left:30px;
+}
+.seattleIcon{
+    display: flex;
+}
+.navbar{
+    height: 100px;
+    background-color:#17a2b8;
+    display:flex;
+}
+.map{
+    height: 15px; 
+    width: 15px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+h1{
+    margin:25px;
+    margin-bottom: 5px;
+}
+
+.gear{
+    width: 16px;
+    height: 16px;
+    margin-left: 25px;
+}
+h4{
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: underline;
+    color:blue;
+    
+}
+p {
+    margin-left: 25px;
+}
+.profile{
+    margin-top: 20px;
+}
+/* end usercard */
+
+/* beginning of entire education box */
+
+.EducationCard{
+    background-color:white;
+    margin-top: 20px;
+    width:600px;
+    height: 150px;
+    border: 5px solid;
+    border-color:rgb(195, 195, 204);
+}
+/* greyTop attributes */
+.greyTop{
+    background-color:#494949;
+}
+/* spacing for wording */
+/* p{ 
+    margin: 10px;
+}*/
+/* image resizing */
+/* .imageCircles img{ */
+.pp{
+    height: 80px;
+    border:3px solid white;
+    border-radius: 50%;
+    position: relative;
+}
+
+/* education portion of box */
+.ed {
+    height: 20px;
+    color: white;
+    background-color: grey;
+    margin-top: 8px;
+    margin-left:25px;
+}
+.silver{
+    color: silver;
+}
+/* end education tab */
+/* start of request card */
+/* .request{
+    height: 1000px;
+    width: 600px;
+    list-style-type: none;
+    text-decoration: none;
+} */
+
+.yourConnections{
+    margin-top: 20px;
+    border: solid;
+    border-color: silver;
+    height: auto;
+    width:300px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.connection{
+    height: 40px;
+    width: auto;
+    background-color: grey;
+}
+
+.imageCircles{
+    border: solid;
+    border-color: silver;
+}
+.request{
+    height: 40px;
+    width: auto;
+    background-color: grey;
+
+}
+/* end of request card */
+.imageCircles li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* .resize{
+    list-style-type: none;
+    text-decoration: none;
+} */
+.YourAlign{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
